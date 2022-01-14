@@ -1,0 +1,142 @@
+	@media (min-width: 767px) {
+		body.fixedFooter {
+			.page-footer {
+				position: fixed;
+				bottom: -100%;
+				width: 100%;
+				z-index: 2;
+			}
+		}
+	}
+	
+	@media (min-width: 768px) {
+		.page-footer {
+			.footer-content {
+				display: table;
+				width: 100%;
+				table-layout: fixed;
+				background-color: #2b2b2b;
+			}
+			.footer-col-left {
+				display: table-cell;
+				vertical-align: top;
+				width: 44%;
+				padding: 0;
+				.inside {
+					width: 470px;
+					float: right;
+					padding: 68px 15px 55px 0;
+				}
+			}
+			.footer-col-right {
+				display: table-cell;
+				vertical-align: top;
+				width: 56%;
+				position: relative;
+			}
+			.footer-map {
+				position: absolute !important;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+		}
+	}
+	
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.page-footer .footer-col-left .inside {
+			width: 390px;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		.page-footer .footer-col-left .inside {
+			width: 360px;
+		}
+		.page-footer .footer-col-left, .page-footer .footer-col-right {
+			width: 50%;
+		}
+	}	
+	@media (max-width: 767px) {
+		.page-footer {
+			.footer-col-left {
+				padding: 40px 20px;
+			}
+		}
+	}
+	
+	.page-footer {
+		position: relative;
+		background: @custom-color-alt;
+		color: #fff;
+		z-index: 2;
+		.footer-content {
+			background-color: #2b2b2b;
+		}
+		.footer-bottom {
+			background-color: #121212;
+		}
+		.container {
+			position: relative;
+			z-index: 100;
+		}
+		.copyright {
+			color: #c8c8c8;
+			padding: 15px 0;
+			font-size: 16px;
+			line-height: 27px;
+			@media (max-width: 767px) {
+				font-size: 14px;
+				line-height: 21px;
+				text-align: center;
+				padding: 15px 45px;
+			}
+		}
+		.footer-map {
+			min-height: 455px;
+			width: 100%;
+			@media (max-width: 767px) {
+				height: 320px;
+				min-height: 0;
+			}
+		}
+		.social-links {
+			margin-top: 68px;
+			@media (max-width: 767px) {
+				margin-top: 35px;
+			}
+			ul li {
+				margin: 0 8px 0 0;
+				a {
+					color: @custom-color;
+					font-size: 46px;
+					&:hover {
+						color: #fff;
+					}
+				}
+			}
+		}
+		.footer-phone {
+			margin-bottom: 62px;
+			font-size: 34px;
+			line-height: 1em;
+			@media (max-width: 767px) {
+				margin-bottom: 35px;
+			}
+			&,
+			h2 {
+				color: #fff;
+			}
+			.number {
+				color: @custom-color;
+				white-space: nowrap;
+			}
+		}
+		.contact-info {
+			margin: 0 0 30px;
+			.icon {
+				color: @custom-color;
+				font-size: 36px;
+			}
+		}
+	}

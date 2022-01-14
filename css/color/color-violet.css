@@ -1,0 +1,371 @@
+.color,
+a.color,
+a.color:hover,
+a.color:focus {
+  color: #8b79fa !important;
+}
+svg path.color {
+  fill: #8b79fa !important;
+}
+.divider-line {
+  border-color: #8b79fa;
+}
+.quote:before {
+  color: #8b79fa;
+}
+.quote-simple {
+  border-left: 4px solid #8b79fa;
+}
+.marker-list > li:after,
+.marker-list-sm > li:after,
+.marker-list-arrow > li:after {
+  color: #8b79fa;
+}
+ul.category-list li:after {
+  color: #8b79fa;
+}
+.number-list > li:before {
+  color: #8b79fa;
+}
+.contact-info > .icon {
+  color: #8b79fa;
+}
+.loader-circle-2 {
+  border-right-color: #8b79fa;
+}
+.loader .line:nth-child(6) {
+  background: #8b79fa;
+}
+.loader .subline:nth-child(11) {
+  background: #8b79fa;
+}
+.loader .needle:before {
+  border-color: transparent #8b79fa transparent transparent;
+}
+.input-custom:hover,
+.input-custom:focus,
+.input-custom.focus {
+  border-color: #8b79fa;
+}
+.textarea-custom:hover,
+.textarea-custom:focus,
+.textarea-custom.focus {
+  border-color: #8b79fa;
+}
+.btn:not([data-action]):hover {
+  background: #8b79fa;
+}
+.btn:not([data-action]):before,
+.btn:not([data-action]):after {
+  background-color: #8b79fa;
+}
+.btn:not([data-action]).btn-border {
+  border: 2px solid #8b79fa;
+  background: transparent;
+}
+.btn-invert:not([data-action]),
+.btn-invert:not([data-action]).active,
+.btn-invert:not([data-action]):active,
+.btn-invert:not([data-action]).focus,
+.btn-invert:not([data-action]):focus {
+  background: #8b79fa;
+}
+.social-links ul li a {
+  color: #8b79fa;
+}
+.link a {
+  color: #8b79fa;
+}
+.tag:hover {
+  background-color: #8b79fa;
+}
+.tags-list li a:hover {
+  background-color: #8b79fa;
+}
+.calendar__footer a:hover {
+  color: #8b79fa;
+}
+.calendar .selected,
+.calendar .selected:hover {
+  background-color: #8b79fa;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+  color: #8b79fa !important;
+}
+.nav-tabs > li > a::after {
+  background: #8b79fa;
+}
+.tab-nav > li > a::after {
+  background: #8b79fa none repeat scroll 0% 0%;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background: #8b79fa;
+  border-color: #8b79fa;
+}
+header .header-right .address span {
+  color: #8b79fa;
+}
+header .header-phone .phone-number .code {
+  color: #8b79fa;
+}
+header .header-cart:hover a.icon,
+header .header-cart.opened a.icon {
+  color: #8b79fa;
+}
+header .header-cart .badge {
+  background-color: #8b79fa;
+}
+header .header-cart:hover a.icon,
+header .header-cart.opened a.icon {
+  color: #8b79fa;
+}
+.appointment {
+  background-color: #8b79fa;
+}
+.appointment:after {
+  border-color: transparent #8b79fa transparent transparent;
+}
+@media (min-width: 992px) {
+  .navbar-nav > li > a:after {
+    background-color: #8b79fa;
+  }
+  .navbar-nav > li.active a,
+  .navbar-nav > li:hover a {
+    background-color: #8b79fa;
+  }
+}
+@media (max-width: 991px) {
+  header.page-header .navbar-toggle {
+    color: #8b79fa;
+  }
+}
+.search-container:hover .button {
+  background-color: #8b79fa;
+}
+@media (max-width: 991px) {
+  .search-container .button {
+    background-color: #8b79fa;
+  }
+}
+@media (max-width: 991px) {
+  #slide-nav #slidemenu .close-menu {
+    color: #8b79fa;
+  }
+}
+.page-footer .social-links ul li a {
+  color: #8b79fa;
+}
+.page-footer .footer-phone .number {
+  color: #8b79fa;
+}
+.page-footer .contact-info .icon {
+  color: #8b79fa;
+}
+#mainSlider .slide-content h3 {
+  color: #8b79fa;
+}
+#mainSlider .slide-content .btn:hover,
+#mainSlider .slide-content .btn.active,
+#mainSlider .slide-content .btn:active,
+#mainSlider .slide-content .btn.focus,
+#mainSlider .slide-content .btn:focus {
+  color: #8b79fa;
+}
+#mainSlider .slick-prev:hover:before,
+#mainSlider .slick-next:hover:before {
+  color: #8b79fa;
+}
+.breadcrumbs .breadcrumb a:hover {
+  color: #8b79fa;
+}
+.text-icon .icon-wrapper > span {
+  background: #8b79fa;
+}
+.text-icon-hor .icon-wrapper span i.icon {
+  color: #8b79fa;
+}
+.text-icon-hor .icon-wrapper .icon-hover {
+  background-color: #8b79fa;
+}
+.text-icon-hor .price {
+  color: #8b79fa;
+}
+.testimonials-item {
+  background-color: #8b79fa;
+}
+.testimonials-item .inside .rating {
+  color: #8b79fa;
+}
+.testimonials-single .username {
+  color: #8b79fa;
+}
+.faq-item .panel-heading .panel-title {
+  border-top: 1px solid #8b79fa;
+}
+.faq-item .panel-heading .panel-title > a:hover {
+  color: #8b79fa;
+}
+.faq-item .panel-heading a > span.caret-toggle {
+  background-color: #8b79fa;
+}
+.blog-post .post-image .post-link:hover {
+  color: #8b79fa;
+}
+.blog-post .post-meta li i.icon {
+  color: #8b79fa;
+}
+.post-preview .post-title a:hover {
+  color: #8b79fa;
+}
+.side-block {
+  border-bottom: 1px solid #8b79fa;
+}
+.comments .comment .text .meta a {
+  color: #8b79fa;
+}
+.comments .comment .text .date i.icon {
+  color: #8b79fa;
+}
+#appointmentForm.modal .modal-dialog .modal-header .close {
+  color: #8b79fa;
+}
+.services-block .image,
+.services-block-alt .image i {
+  background-color: #8b79fa;
+  -webkit-box-shadow: 0 0 0 20px #8b79fa;
+  -moz-box-shadow: 0 0 0 20px #8b79fa;
+  box-shadow: 0 0 0 20px #8b79fa;
+}
+.services-block-alt .image:hover i {
+  -webkit-box-shadow: 0 0 0 0 #8b79fa;
+  -moz-box-shadow: 0 0 0 0 #8b79fa;
+  box-shadow: 0 0 0 0 #8b79fa;
+}
+.services-block .service.dark h2,
+.services-block .service.dark h3,
+.services-block .service.dark h4 {
+  color: #8b79fa;
+}
+.services-block-alt .caption .title {
+  color: #8b79fa;
+}
+.services-block-alt .services-link {
+  color: #8b79fa;
+}
+.vertical-tab-menu .list-group > a i.icon {
+  color: #8b79fa;
+}
+.promo-banner {
+  border: 2px dotted #8b79fa;
+}
+.promo-banner .icon-lg {
+  color: #8b79fa;
+}
+.how-works-block .caption > .inside .number span {
+  background-color: #8b79fa;
+}
+.stat-box .icon {
+  color: #8b79fa;
+}
+.filters-by-category ul li a:hover,
+.filters-by-category ul li a.selected {
+  color: #8b79fa;
+}
+@media (min-width: 768px) {
+  .image-scale-color:after {
+    background: #8b79fa;
+  }
+}
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: #8b79fa;
+}
+.slick-dots li.slick-active button,
+.slick-dots li.slick-active button:hover {
+  background: #8b79fa;
+}
+.coupon-text5 {
+  color: #8b79fa;
+}
+.coupon .coupon-all {
+  background-color: #8b79fa;
+}
+.coupon .coupon-all:after {
+  border-color: #8b79fa transparent transparent transparent;
+}
+.coupon-print-inside {
+  border-color: #8b79fa;
+}
+.service-icon .icon-wrapper span {
+  background: #8b79fa;
+}
+.text-icon-sm .icon-wrapper > span {
+  background: #8b79fa;
+}
+.text-icon-sm .icon-wrapper .icon-hover {
+  background-color: #8b79fa;
+}
+.table .cell-marker {
+  background: #8b79fa;
+  border-color: #8b79fa;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+  background-color: #8b79fa;
+  border-color: #8b79fa;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover {
+  background-color: #8b79fa;
+  border-color: #8b79fa;
+}
+.testimonial-card:after {
+  color: #8b79fa;
+}
+.column-filters {
+  margin-bottom: 35px;
+}
+.column-filters-inside {
+  border: 3px solid #f5f5f5;
+}
+.column-filters .side-block {
+  border-color: #ebebeb;
+  padding: 20px;
+  margin-bottom: 0;
+}
+.column-filters .side-block h3 {
+  margin-bottom: 25px;
+}
+.column-filters .category-list {
+  margin-top: 20px;
+}
+.column-center {
+  margin-bottom: 35px;
+}
+.noUi-horizontal .noUi-handle {
+  background: #8b79fa;
+}
+.noUi-connect {
+  background: #8b79fa;
+}
+.simple-pagination a.active {
+  color: #8b79fa;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+  color: #8b79fa !important;
+}
+.nav-tabs > li > a::after {
+  background: #8b79fa;
+}
+.tab-nav > li > a::after {
+  background: #8b79fa none repeat scroll 0% 0%;
+}
+.rating i {
+  color: #8b79fa;
+}

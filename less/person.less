@@ -1,0 +1,56 @@
+.person {
+	margin-top: 23px;
+	.image {
+		margin: 0 auto 20px;
+		position: relative;
+	}
+	.name {
+		margin-bottom: 8px;
+		line-height: 1.2em;
+		text-transform: uppercase;
+	}
+	.position {
+		margin-bottom: 16px;
+		padding: 0;
+		font-weight: normal;
+		text-transform: none;
+	}
+	.text {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.person:not(.last) {
+		margin-bottom: 25px;
+	}
+}
+.person-hor {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #dcdcdc;
+	@media (max-width: 479px) {
+		flex-direction: column;
+	}
+	.box-shadow (0 0 15px 0 rgba(0,0,0,.15));
+	.image {
+		margin: 0;
+		width: ~'calc(50% - 15px)';
+		@media (max-width: 479px) {
+			width: 100%;
+		}
+	}
+	.person-info {
+		width: ~'calc(50% + 15px)';
+		padding: 15px 30px;
+		@media (max-width: 479px) {
+			width: 100%;
+			padding: 20px 20px 15px
+		}
+	}
+}

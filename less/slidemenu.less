@@ -1,0 +1,144 @@
+body .darkout-menu {
+	position: fixed;
+	z-index: -1;
+	top: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.5;
+	.transition (~'opacity 0.3s linear, left 0.3s linear');
+}
+
+body.slide-active {
+	overflow-x: hidden;
+	.darkout-menu {
+		z-index: 1000;
+		left: 270px;
+		top: 0;
+	}
+}
+
+#pageContent {
+	position: relative;
+	left: 0;
+	&.slide-active {
+		padding-top: 0
+	}
+}
+
+.navbar-header {
+	position: relative
+}
+
+#slidemenu,
+#pageContent,
+#mainSliderWrapper,
+.page-footer,
+.page-header .header-row {
+	.transition (left 0.3s linear);
+	left: 0;
+	position: relative;
+	&.slide-active {
+		left: 270px;
+	}
+}
+
+@media (max-width:991px) {
+	#slide-nav .container {
+		margin: 0!important;
+		padding: 0!important;
+		height: 100%;
+		width: 100%;
+	}
+	#slide-nav .navbar-header {
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+	#slide-nav .navbar.slide-active {
+		position: absolute;
+		width: 270px;
+		top: -1px;
+		z-index: 1000;
+	}
+	#slide-nav #slidemenu {
+		left: -100%;
+		width: 270px;
+		min-width: 0;
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		margin: 0;
+		padding-right: 0;
+		padding-left: 0;
+		background: transparent;
+		border: 0;
+		.transition (left 0.3s linear);
+		.close-menu {
+			display: none;
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 10px;
+			right: 0;
+			height: 42px;
+			color: @custom-color;
+			text-align: left;
+			text-transform: uppercase;
+			font-size: 18px;
+			line-height: 42px;
+			font-weight: 500;
+		}
+		&.slide-active {
+			.row {
+				margin: 0;
+			}
+			left: 0;
+			.close-menu {
+				display: block;
+			}
+		}
+	}
+	#slide-nav #slidemenu .navbar-nav {
+		min-width: 0;
+		width: 100%;
+		margin: 42px 0 0;
+	}
+	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
+		min-width: 0;
+		width: 100%;
+		white-space: normal;
+		text-decoration: none;
+	}
+	#slide-nav {
+		border-top: 0
+	}
+	#navbar-height-col {
+		position: fixed;
+		top: 0;
+		height: 100%;
+		bottom: 0;
+		width: 270px;
+		left: -270px;
+		background: #262626;
+		.transition (left 0.3s linear);
+		&.slide-active {
+			left: 0;
+		}
+	}
+}
+
+@media (min-width:992px) {
+	#slide-nav #slidemenu .close-menu {
+		display: none !important;
+	}
+	#pageContent {
+		left: 0!important
+	}
+	.navbar.navbar-fixed-top.slide-active {
+		position: fixed
+	}
+	.navbar-header {
+		left: 0!important
+	}
+}

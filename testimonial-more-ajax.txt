@@ -1,0 +1,72 @@
+﻿					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>William N. Argo</h5></div>
+						<div class="testimonial-card-text">Yesterday's crown preparation went great. I expected the same level of discomfort that I had experienced with another crown done by different dentist. Technique caused so much less difficulty that I went away with a smile on my face. </div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Jana G. Thomas</h5></div>
+						<div class="testimonial-card-text">Whitney showed up today early, not on time, but early, which was awesome, and took care of everything. Got the oil filter changed. Also, he found some other things that were possibly needing a little attention from him. It was a great service all around and we'll be calling him again, again, and again.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Travis E. Corlett</h5></div>
+						<div class="testimonial-card-text">I learned of Car Repair Service through a local news station. The service provided by Kevin exceeded my expectations. Not only does he come highly recommended but I plan to request him for future service needs.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Vernice M. Sanders</h5></div>
+						<div class="testimonial-card-text">The mechanic that came out to do the work, Whitney, has over 28, probably 30 years of auto repair experience and I felt very confident that he was able to do the job correctly and properly, which he did. So I'm very happy with the outcome. The bottom line was saving me over $200.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Harold K. Glidden</h5></div>
+						<div class="testimonial-card-text">I booked Master Technician Whitney as my Car Repair Service. He came and checked my car... He gave clear details about what's happening and the problem, which made me very happy and knowledgeable. I got to know my car very well… He was very honest. I could trust him. So my next service goes to him from Car Repair Service.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Edna J. Young</h5></div>
+						<div class="testimonial-card-text">I would definitely recommend Car Repair Service. I’ve actually recommended them to several of my friends. Just the convenience of the whole aspect where you can go about your life and get your work done and you don’t need to take the car anywhere or deal with your car not being available when you need it is great.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Silvia R. Brown</h5></div>
+						<div class="testimonial-card-text">Was very preased with the job,very professional and accurate,he knows his job.will be happy to use him in the future time also to reffers my friends they ask for him for their cars repair. Thanks mr Ben.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Joseph C. Billups</h5></div>
+						<div class="testimonial-card-text">I like Car Repair Service, because I don't have to risk driving the car and [making] the situation worse. Having a mechanic come down to your home makes it a lot easier on yourself, especially when you have a family.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-card-title">
+							<h5>Rod N. Clay</h5></div>
+						<div class="testimonial-card-text">I bought my (used) car with Car Repair Service’s inspection recommendation and I’m very happy with their services. I’m sure that I’ll use Car Repair Service’s services again in the future.</div>
+						<div class="testimonial-card-rating">
+							<div class="rating rating-5"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+						</div>
+					</div>

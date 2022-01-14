@@ -1,0 +1,35 @@
+@media (min-width: 1400px) {
+	.text-appointment {
+		width: ~'calc(100% + 130px)';
+		margin: 0 0 0 -35px;
+		text-align: center;
+	}
+
+	.img-move {
+		position: relative;
+		img {
+			position: absolute;
+			top: 0;
+			left: -4%;
+			width: 130%;
+		}
+	}
+}
+@media (max-width: 1399px) {
+	.text-appointment {
+		text-align: center;
+	}
+	.img-move {
+		width: ~'calc(100% + 30px)';
+		margin: 15px 0 0 -15px;
+		text-align: center;
+	}
+	.img-move img {
+		max-width: 100%;
+	}
+}
+@media (max-width: 479px) {
+	.btn-inline .btn {
+		margin-right: 0;
+	}	
+}

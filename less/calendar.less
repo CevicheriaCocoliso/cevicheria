@@ -1,0 +1,53 @@
+.calendar {
+	&__header {
+		font-size: 16px;
+		font-style: italic;
+		padding: 0 0 18px;
+	}
+	&__footer {
+		font-size: 16px;
+		font-style: italic;
+		padding: 10px 0 0;
+		a {
+			text-decoration: none;
+			&:hover {
+				color: @custom-color;
+			}
+		}
+	}
+	table {
+		background: #fff;
+		border-collapse: collapse;
+		color: #2c2c2c;
+		font-size: 15px;
+		width: 100%;
+		max-width: 350px;
+		border-spacing: 1px;
+		border-collapse: separate;
+	}
+	th,
+	td {
+		border: 1px solid #eee;
+		color: #484848;
+		cursor: pointer;
+		line-height: 36px;
+		text-align: center;
+		.transition (all 0.2s ease);
+		&:hover {
+			background-color: #f5f5f5;
+		}
+	}
+	th {
+		background-color: #f5f5f5;
+	}
+	tr:first-child td {
+		color: #2c2c2c;
+		font-weight: 700;
+		padding-bottom: 10px;
+	}
+	.selected,
+	.selected:hover {
+		background-color: @custom-color;
+		color: #2c2c2c;
+	}
+}

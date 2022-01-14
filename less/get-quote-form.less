@@ -1,0 +1,148 @@
+.form-popup-wrap {
+	display: inline-block;
+	position: relative;
+	&.text-icon-sm {
+		width: 100%;
+	}
+}
+
+.form-popup {
+	position: absolute;
+	width: 766px;
+	left: 50%;
+	margin-left: -395px;
+	visibility: hidden;
+	bottom: -25px;
+	.transition (bottom .2s);
+	opacity: 0;
+	&.opened {
+		opacity: 1;
+		bottom: -5px;
+		visibility: visible;
+	}
+	@media (max-width: 767px) {
+		width: 300px;
+		margin-left: -150px;
+	}
+}
+
+.text-icon-sm.form-popup-wrap .form-popup {
+	margin-left: -383px;
+	@media (max-width: 767px) {
+		width: 300px;
+		margin-left: -150px;
+	}
+}
+
+#quote-form {
+	width: 100%;
+	padding: 55px;
+	@media (max-width: 767px) {
+		padding: 20px;
+	}
+	background: #fff;
+	border: 2px solid #252525;
+	position: absolute;
+	z-index: 1;
+	&:after,
+	&::before {
+		bottom: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+	&::after {
+		border-color: rgba(255, 255, 255, 0);
+		border-bottom-color: #fff;
+		border-width: 10px;
+		margin-left: -10px;
+	}
+	&::before {
+		border-color: rgba(37, 37, 37, 0);
+		border-bottom-color: #252525;
+		border-width: 13px;
+		margin-left: -13px;
+	}
+	.form-inline {
+		position: relative;
+		margin-bottom: 20px;
+		@media (max-width: 767px) {
+			margin-bottom: 10px;
+		}
+		.form-inline {
+			margin-right: -20px;
+			width: 50%;
+			@media (max-width: 767px) {
+				width: 100%;
+				margin-bottom: 10px;
+				margin-right: 0;
+			}
+		}
+	}
+	.form-inline {
+		& > * {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 16px;
+			width: ~'calc(50% - 20px)';
+			@media (max-width: 767px) {
+				width: 100%;
+				margin-bottom: 10px;
+				margin-right: 0;
+			}
+		}
+		& > *:only-child {
+			width: ~'calc(100% - 20px)';
+			@media (max-width: 767px) {
+				width: 100%;
+				margin-bottom: 10px;
+				margin-right: 0;
+			}
+		}
+		label {
+			width: 100% !important;
+		}
+		.form-control {
+			width: 100%;
+		}
+	}
+	.input-custom {
+		height: 48px;
+		width: 100%;
+		padding: 12px 15px 12px;
+	}
+	.select-wrapper:before {
+		height: 46px;
+		line-height: 46px;
+	}
+	.textarea-custom {
+		height: 106px;
+		min-height: 0;
+		color: #2b2b2b;
+	}
+	.placeholder {
+		font-size: 18px;
+		line-height: 20px;
+		color: #2b2b2b;
+	}
+	input::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder {
+		.placeholder
+	}
+	input::-moz-placeholder,
+	textarea::-moz-placeholder {
+		.placeholder
+	}
+	input:-ms-input-placeholder,
+	textarea:-ms-input-placeholder {
+		.placeholder
+	}
+	input:-moz-placeholder,
+	textarea:-moz-placeholder {
+		.placeholder
+	}
+}

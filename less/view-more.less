@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+	.view-more-link {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.view-more-mobile {
+		display: none;
+		.marker-list {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+	.view-more-link {
+		display: block;
+		margin-top: 15px;
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.view-more-link .less {
+	display: none;
+}
+
+.view-more-link.opened {
+	.more {
+		display: none;
+	}
+	.less {
+		display: inline-block;
+	}
+}

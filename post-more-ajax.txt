@@ -1,0 +1,47 @@
+						<div class="blog-post">
+							<div class="post-image">
+								<a href="blog-single.html"><img src="images/blog/blog-post-img-1.jpg" alt=""></a>
+							</div>
+							<ul class="post-meta">
+								<li class="author">by <b><i>Paul Johnson</i></b></li>
+								<li><i class="icon icon-clock"></i><span>Thursday, May 01, 2017</span></li>
+								<li><i class="icon icon-interface"></i><span>3</span></li>
+							</ul>
+							<h2 class="post-title">Troubleshooting Anti-Lock Brakes</h2>
+							<div class="post-teaser">
+								<p>Over the river and through the woods was more dangerous back when cars had crummy bias-ply tires, rear-wheel drive and ordinary brakes. </p>
+							</div>
+							<a href="blog-single.html" class="btn"><span>Continue Reading</span></a> 
+						</div>
+						<div class="blog-post">
+							<div class="post-image">
+								<div class="post-video">
+									<iframe src="https://player.vimeo.com/video/60907090"></iframe>
+								</div>
+							</div>
+							<h3 class="post-title">The First Five Mods You Should Do to Your Car</h3>
+							<ul class="post-meta">
+								<li class="author">by <b><i>Paul Johnson</i></b></li>
+								<li><i class="icon icon-clock"></i><span>Thursday, May 01, 2017</span></li>
+								<li><i class="icon icon-interface"></i><span>3</span></li>
+							</ul>
+							<div class="post-teaser">
+								<p>Over the river and through the woods was more dangerous back when cars had crummy bias-ply tires, rear-wheel drive and ordinary brakes. </p>
+							</div>
+							<a href="blog-single.html" class="btn"><span>Continue Reading</span></a> 
+						</div>
+						<div class="blog-post">
+							<ul class="post-meta">
+								<li class="author">by <b><i>Paul Johnson</i></b></li>
+								<li><i class="icon icon-clock"></i><span>Thursday, May 01, 2017</span></li>
+								<li><i class="icon icon-interface"></i><span>3</span></li>
+							</ul>
+							<h3 class="post-title">How to Diagnose Car Problems If You Don't Know Much About Cars</h3>
+							<div class="post-teaser">
+								<div class="quote">
+									<p>If something goes wrong with your car and you don't know much about car repair, then it's time to go to the shop and find out what's wrong. However, lots of people are understandably worried about getting ripped off—mechanics are pretty good at detecting when a customer doesn't know anything about cars. To avoid this, it's a good idea to narrow down the possibilities of what's going on inside your car.</p>
+									<p>The warning lights on your dashboard are the most obvious starting point. Yet the most common, the Check Engine light, can be utterly confusing because it can cover problems ranging widely in severity. Others, like the engine temperature light, tire pressure light, or oil light are more straightforward to decipher. Regardless of what lights up, never ignore it. Delaying a diagnosis and repair could lead to even bigger problems down the road.</p>
+								</div>
+							</div>
+							<a href="blog-single.html" class="btn"><span>Continue Reading</span></a> 
+						</div>
